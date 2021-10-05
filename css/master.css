@@ -4,6 +4,31 @@ html {
     background-color: whitesmoke;
 }
 
+h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p, small{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    background: #9B30F9;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    padding: 6px 12px;
+    box-shadow: 0px 0px 5px 3px #a1a1a1;
+    transition: 0.5s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px 3px #747474;
+    background: #8327d3;
+    cursor: pointer;
+}
+
 header {
     padding: 0px;
     margin-bottom: 20px;
@@ -19,28 +44,22 @@ body {
     width: 960px;
     margin: 0px auto 0px auto;
     background-color: white;
+    box-shadow: 0px 0px 4px 2px #0a0a0a20;
 }
 
 article {
-    font-family: sans-serif;
     text-align: justify;
     /* float:left; */
 }
 
 aside {
-
-
-    font-family: sans-serif;
-    text-align: justify;
+    text-align: left;
     float: right;
 }
 
 footer {
-
-    background-color: #e0aaff;
+  background-color: #9B30F9;
     clear: both;
-
-
 }
 
 ul li {
@@ -53,7 +72,6 @@ ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1.1em;
-
 }
 
 ul li a:hover {
@@ -63,7 +81,6 @@ ul li a:hover {
 ol {
     padding: 16px;
     margin: 0px 0px 0px 750px;
-
 }
 
 .titulos1 {
@@ -78,9 +95,8 @@ ol {
     padding: 16px;
    margin-top: 50px;
     float: left;
-
+    color: white;
 }
-
 
 /* article page sobre*/
 #sobreum {
@@ -99,17 +115,14 @@ ol {
 /* article page ferramentas */
 #branch {
     width: 350px;
-
 }
 
 #pullrequest {
     width: 250px;
-
 }
 
 #gitpull {
     width: 250px;
-
 }
 
 /* aside page ferramentas */
@@ -127,7 +140,6 @@ ol {
 #instaum {
     width: 400px;
     margin-left: 50px;
-
 }
 
 #instalador {
@@ -139,17 +151,16 @@ ol {
 #instadois {
     width: 400px;
     margin-right: 50px;
-
 }
 
 #logo {
-margin-top: 110px ;
-
+    float: right;
+    width: 200px;
+    margin-left: 28px;
 }
 
 #banner {
     margin: 10px 50px 10px 50px;
-
 }
 
 
@@ -169,17 +180,20 @@ margin-top: 110px ;
     font-size: 20px;
     color: #9B30F9;
     font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .texto-card{
     font-size: 14px;
     color: #5a5a5a;
     font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .imagem-card{
     float: right;
     margin-left: 16px;
+    border-radius: 8px;
 }
 
 .article-ferramentas {
@@ -191,9 +205,41 @@ margin-top: 110px ;
 }
 
 .aside-ferramentas {
-    width: 260px;
+    width: 315px;
     margin: 76px 40px 0px 0px;
     font-family: sans-serif;
-    text-align: justify;
+    text-align: left;
     float: right;
+}
+
+.imagem-aside {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.section-footer {
+    color: white;
+}
+
+ol li a { color: white; }
+
+.article-index {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 24px;
+    font-family: sans-serif;
+    /* Faz com que o elemento não ultrapasse seu 100% de width */
+    box-sizing: border-box;
+}
+
+.centralizador{
+    text-align: center;
+}
+
+.card-home{
+    width: 200px;
+    margin-left: 26px;
+    display: inline-block;
+    
 }
