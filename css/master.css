@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+html {
+    background-color: whitesmoke;
+}
+
+header {
+    padding: 16px;
+    background-color: lightgray;
+   }
+
+body {
+    width: 960px;
+    margin: 0px auto 0px auto;
+    background-color: white;
+}
+
+article {
+    width: 400px;
+    margin: 10px 50px;
+    font-family: sans-serif;
+    text-align: justify;
+    float:left;
+}
+
+aside {
+    width: 360px;
+    margin: 10px 50px;
+    font-family: sans-serif;
+    text-align: justify;
+    float: right;
+}
+
+footer {
+
+    background-color: lightgray;
+    clear: both;
+    
+
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    padding: 0px 15px;
+    color: purple;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 26px;
+
+}
+
+
+/* seletor agrupado */
+ nav, article, {
+    background-color: white;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+ol {
+    padding: 16px;
+    margin: 0px 0px 0px 750px;
+    
+}
+
+.titulos1 {
+    color: purple;
+}
+
+.titulos2 {
+    margin: 70px 10px 10px 0px;
+}
+
+.copy {
+    padding: 16px;
+   margin-top: 40px;
+    float: left;
+    
+}
+
+
+#logo {
+margin-top: 110px ;
+
+}
+
+#banner {
+    margin: 10px 50px 10px 50px;
+ 
+}
+
+#ferramentas {
+    float: ;
+}
