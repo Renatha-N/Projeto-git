@@ -16,16 +16,16 @@ body {
 }
 
 article {
-    width: 400px;
-    margin: 10px 50px;
+    width: 500px;
+    margin: 10px 20px;
     font-family: sans-serif;
     text-align: justify;
     float:left;
 }
 
 aside {
-    width: 360px;
-    margin: 10px 50px;
+    width: 280px;
+    margin: 76px 60px 0px 0px;
     font-family: sans-serif;
     text-align: justify;
     float: right;
@@ -54,7 +54,7 @@ ul li a {
 
 
 /* seletor agrupado */
- nav, article, {
+ nav, article {
     background-color: white;
 }
 
@@ -94,6 +94,50 @@ margin-top: 110px ;
  
 }
 
-#ferramentas {
+/* #ferramentas {
     float: ;
+} */
+
+/* Página FERRAMENTAS */
+.card{
+    background: #fafafa;
+    box-shadow: 0px 0px 5px 3px #0a0a0a20;
+    border-radius: 8px;
+    padding: 16px;
+    border-left: 3px solid purple;
+    margin-bottom: 18px;
+}
+
+.titulo-card{
+    margin: 0px 0px 6px 0px;
+    font-size: 20px;
+    color: purple;
+    font-weight: 500;
+}
+
+.texto-card{
+    font-size: 14px;
+    color: #5a5a5a;
+    font-weight: 300;
+}
+
+.imagem-card{
+    float: right;
+    margin-left: 16px;
+}
+
+.article-ferramentas {
+    width: 500px;
+    margin: 10px 20px;
+    font-family: sans-serif;
+    text-align: justify;
+    float:left;
+}
+
+.aside-ferramentas {
+    width: 280px;
+    margin: 76px 60px 0px 0px;
+    font-family: sans-serif;
+    text-align: justify;
+    float: right;
 }
