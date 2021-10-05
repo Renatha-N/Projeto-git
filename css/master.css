@@ -6,8 +6,14 @@ html {
 
 header {
     padding: 16px;
-    background-color: lightgray;
+    background-color: #e0aaff;
    }
+
+nav {
+    background-color: purple;
+    padding: 2px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 body {
     width: 960px;
@@ -16,16 +22,16 @@ body {
 }
 
 article {
-    width: 500px;
-    margin: 10px 20px;
+
+
     font-family: sans-serif;
     text-align: justify;
     float:left;
 }
 
 aside {
-    width: 280px;
-    margin: 76px 60px 0px 0px;
+
+
     font-family: sans-serif;
     text-align: justify;
     float: right;
@@ -33,9 +39,9 @@ aside {
 
 footer {
 
-    background-color: lightgray;
+    background-color: #e0aaff;
     clear: both;
-    
+
 
 }
 
@@ -45,17 +51,11 @@ ul li {
 
 ul li a {
     padding: 0px 15px;
-    color: purple;
+    color: white;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 1.1em;
 
-}
-
-
-/* seletor agrupado */
- nav, article {
-    background-color: white;
 }
 
 ul li a:hover {
@@ -65,7 +65,7 @@ ul li a:hover {
 ol {
     padding: 16px;
     margin: 0px 0px 0px 750px;
-    
+
 }
 
 .titulos1 {
@@ -78,11 +78,71 @@ ol {
 
 .copy {
     padding: 16px;
-   margin-top: 40px;
+   margin-top: 50px;
     float: left;
-    
+
 }
 
+
+/* article page sobre*/
+#sobreum {
+    width: 250px;
+    margin-left: 50px;
+}
+
+
+/* aside page sobre*/
+#sobredois {
+    width: 500px;
+    margin-right: 50px;
+}
+
+
+/* article page ferramentas */
+#branch {
+    width: 350px;
+
+}
+
+#pullrequest {
+    width: 250px;
+
+}
+
+#gitpull {
+    width: 250px;
+
+}
+
+/* aside page ferramentas */
+#commit {
+    width: 350px;
+    margin: 10px 100px 10px 0px;
+}
+
+#commiterror {
+    width: 350px;
+}
+
+/* article page instalação */
+
+#instaum {
+    width: 400px;
+    margin-left: 50px;
+
+}
+
+#instalador {
+ margin: 110px 200px 0px 0px;
+}
+
+/* aside page instalação */
+
+#instadois {
+    width: 400px;
+    margin-right: 50px;
+
+}
 
 #logo {
 margin-top: 110px ;
@@ -91,12 +151,8 @@ margin-top: 110px ;
 
 #banner {
     margin: 10px 50px 10px 50px;
- 
-}
 
-/* #ferramentas {
-    float: ;
-} */
+}
 
 /* Página FERRAMENTAS */
 .card{
